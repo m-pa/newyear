@@ -37,9 +37,9 @@ function draw() {
   fill('darkred')
   textAlign(LEFT)
   textSize(32)
-  text('Points:', 30, 40)
+  text('Kg CO2:', 30, 40)
   fill(0, 102, 153)
-  text(Math.floor(points), 150, 40)
+  text(Math.floor(points), 170, 40)
   fill(0, 102, 153)
 
   fill(30, 30, 55)
